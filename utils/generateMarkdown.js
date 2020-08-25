@@ -13,25 +13,25 @@ generateMarkdown:(data) => {
     badge = badges.MIT
   }
   if("Apache License 2.0" === data.License) {
-    badge = data.License
+    badge = badges.Apache2
   }
   if("The Unlicense" === data.License) {
-    badge = data.License
+    badge = badges.unlicense
   }
 
   return `# ${data.Title}
   ## License:
   ${badge}
-  ${data.License}
+  This application is covered under the ${data.License} License.
 
   ## Description: 
   ${data.Description}
 
   ## Table of Contents:
-  ${data.Contents}
+  [Installation](#Installation)
 
   ## Installation:
-  ${data.Intstallation}
+  ${data.Installation}
 
   ## Usage:
   ${data.Usage}
@@ -43,7 +43,7 @@ generateMarkdown:(data) => {
   ${data.Tests}
 
   ## Questions:
-  ${data.Questions}
+  [Github](${data.Questions})
 
   ${data.Email}
 
