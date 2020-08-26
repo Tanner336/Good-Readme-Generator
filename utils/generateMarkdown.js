@@ -29,6 +29,10 @@ generateMarkdown:(data) => {
 
   ## Table of Contents:
   [Installation](#Installation)
+  [Usage](#Usage)
+  [Contribution-Guidelines](#Contribution-Guidelines)
+  [Test](#Test)
+  [Questions/Contact](#Questions)
 
   ## Installation:
   ${data.Installation}
@@ -43,8 +47,10 @@ generateMarkdown:(data) => {
   ${data.Tests}
 
   ## Questions:
+  Github 
   [Github](${data.Questions})
-
+  
+  Email Address, please reach out with any questions
   ${data.Email}
 
 `;
