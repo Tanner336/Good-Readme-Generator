@@ -17,11 +17,6 @@ const questions = [
   },
   {
     type: "input",
-    name: "Contents",
-    message: "Please list out your Table of Contents",
-  },
-  {
-    type: "input",
     name: "Installation",
     message: "What do you need to do to install this application?",
   },

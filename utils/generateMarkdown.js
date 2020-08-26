@@ -48,7 +48,7 @@ generateMarkdown:(data) => {
 
   ## Questions:
   Github 
-  [Github](${data.Questions})
+  [Github](http://github.com/${data.Questions})
   
   Email Address, please reach out with any questions
   ${data.Email}

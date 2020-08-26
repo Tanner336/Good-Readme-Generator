@@ -4,7 +4,7 @@
   This application is covered under the MIT License.
 
   ## Description: 
-  README.md Generator
+  README.md Generaotr
 
   ## Table of Contents:
   [Installation](#Installation)
@@ -14,16 +14,16 @@
   [Questions/Contact](#Questions)
 
   ## Installation:
-  install node.js and package.json
+  node.js, package.json
 
   ## Usage:
-  This command line application can use prompts presented to the user and take the answers to make a well developed and concise README.md file for their projects and for Github
+  This is used to automatically make a good README.md file
 
   ## Contribution Guidelines:
-  If you would like to contribute, all you need is to confirm with myself and to make sure that you leave the project better than when you found it.
+  Go crazy so long as you leave the project better than you found it
 
   ## Tests:
-  Open up node.js/bash and type node index
+  open up the terminal node.js and type node index
 
   ## Questions:
   Github 
